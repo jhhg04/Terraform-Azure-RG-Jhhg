@@ -1,0 +1,30 @@
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+
+# Archivos de bloqueo del proveedor
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Directorios de trabajo de Terraform
+.terraform/
+
+# Variables de entorno locales
+*.tfvars
+*.tfvars.json
+
+# Salida de los planes de Terraform
+*.tfplan
+
+# Salida de crash logs de Terraform
+crash.log
+
+# Archivos de respaldo de Terraform
+*.backup
+
+# Archivos de credenciales sensibles
+credentials.tfrc.json
+
+# Otras configuraciones locales o temporales
+.terraformrc
+.terraformignore
